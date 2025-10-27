@@ -1,0 +1,43 @@
+{
+  "name": "blackstone-fortress",
+  "title": "Warhammer Quest: Blackstone Fortress (Unofficial)",
+  "description": "Custom Foundry VTT system scaffolding for playing Warhammer Quest: Blackstone Fortress. Includes action dice and rule journals.",
+  "version": "0.1.0",
+  "author": "Your Name",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "systemMigrationVersion": "0.1.0",
+  "url": "https://github.com/yourname/blackstone-fortress",
+  "manifest": "https://raw.githubusercontent.com/yourname/blackstone-fortress/main/system.json",
+  "download": "https://github.com/yourname/blackstone-fortress/releases/latest/download/blackstone-fortress.zip",
+  "esmodules": [
+    "scripts/main.js",
+    "scripts/dice.js"
+  ],
+  "styles": [
+    "styles/main.css"
+  ],
+  "packs": [
+    {
+      "name": "journals",
+      "label": "Blackstone Fortress \u2013 Journals",
+      "path": "packs/journals.db",
+      "type": "JournalEntry",
+      "system": "blackstone-fortress",
+      "private": false
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "initiative": {
+    "formula": "1d6",
+    "decimals": 0
+  },
+  "gridDistance": 1,
+  "gridUnits": "hex"
+}
