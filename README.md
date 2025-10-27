@@ -8,17 +8,6 @@
 - Journals: Rulebook, Precipice, Combat (paraphrased summaries for quick reference).
 - Clean scaffold to build actors/items/AI and expansions.
 
-## Getting Started (GitHub)
-1. **Create repo** on GitHub (e.g., `blackstone-fortress`).
-2. Clone & copy this folder’s contents into the repo.
-3. Commit and push:
-   ```bash
-   git add .
-   git commit -m "feat: initial system scaffolding with custom action dice and journals"
-   git branch -M main
-   git remote add origin https://github.com/<yourname>/blackstone-fortress.git
-   git push -u origin main
-   ```
 4. Create a **Release** with a ZIP of this folder named `blackstone-fortress.zip`.
 5. Update the `manifest` and `download` URLs in `system.json` to point to your raw `system.json` and release asset.
 
