@@ -7,7 +7,7 @@
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "systemMigrationVersion": "0.1.0",
-  "url": "https://github.com/yourname/blackstone-fortress",
+  "url": "https://github.com/Chewiee93/blackstone-fortress",
   "manifest": "https://raw.githubusercontent.com/yourname/blackstone-fortress/main/system.json",
   "download": "https://github.com/yourname/blackstone-fortress/releases/latest/download/blackstone-fortress.zip",
   "esmodules": [
