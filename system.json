@@ -9,7 +9,7 @@
   "systemMigrationVersion": "0.1.0",
   "url": "https://github.com/Chewiee93/blackstone-fortress",
   "manifest": "https://github.com/Chewiee93/blackstone-fortress/blob/main/system.json",
-  "download": "https://github.com/yourname/blackstone-fortress/releases/latest/download/blackstone-fortress.zip",
+  "download": "https://github.com/yourname/blackstone-fortress/releases/v0.1.0/download/blackstone-fortress-main.zip",
   "esmodules": [
     "scripts/main.js",
     "scripts/dice.js"
